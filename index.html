@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bouldering Wikipedia</title>
+
+    <!-- Including the main.css file for styling -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Including the Font Awesome CSS library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <!-- Active link pointing to the index.html page -->
+        <a class="active" href="index.html">Home</a>
+
+        <!-- Links to other sections -->
+        <a href="section1.html">Equipment</a>
+        <a href="section2.html">Memberships</a>
+        <a href="section3.html">Alternatives</a>
+
+        <!-- Additional links -->
+        <a href="see_also.html">See Also</a>
+        <a href="references.html">References</a>
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <!-- Log-in Container -->
+        <div class="login-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Username" name="username">
+                <input type="text" placeholder="Password" name="psw">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Page content -->
+    <br>
+    <br>
+    <div class="bg-image">
+        <img src="img/bould8.jpg" style="width:100%; height:100%">
+    </div>
+
+    <div class="bg-text">
+        <h1>Bouldering Wikipedia</h1>
+        <p>Mason Howes - Geog 328</p>
+    </div>
+    <br>
+    <br>
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img/bould1.png" style="width:100%">
+          <div class="text">Person bouldering on a climbing wall with a group observing the climbers performance of a route</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/bould2.png" style="width:100%">
+          <div class="text">Man bouldering outdoors</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/bould3.png" style="width:100%">
+          <div class="text">Seattle Bouldering Project interior</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+
+    <div class="content">
+        <!-- Abstract section -->
+        Recreational bouldering is a dynamic and exhilarating form of indoor rock climbing that focuses on short, challenging routes known as "problems." Climbers, equipped with climbing shoes and optionally chalk for grip, ascend these problems, typically ranging from 10 to 20 feet in height, without the use of ropes or harnesses. Instead, individual crash pads or a floor-wide mat is located beneath to provide safety in case of a fall.
+        <br>
+        <br>
+        <!-- Displaying the course cover image in a scaled size -->
+        Recreational bouldering has its roots in the early 20th century when it was primarily considered a training method for traditional rock climbing. Bouldering allowed climbers to practice and refine their skills on shorter, more accessible rock formations before attempting more significant ascents. The sport gained momentum in the 1980s with the development of purpose-built indoor bouldering walls, offering climbers a controlled environment for training and recreational climbing. Over time, bouldering evolved into a distinct discipline, emphasizing technique, strength, and problem-solving. It attracted a growing community of enthusiasts, leading to the establishment of bouldering-specific competitions and gyms worldwide. Today, recreational bouldering has become a dynamic and inclusive activity, accessible to climbers of all ages and abilities.
+
+        <br>
+        <br>
+        
+    </div>
+
+    <!-- Including the main.js file for JavaScript functionality -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
